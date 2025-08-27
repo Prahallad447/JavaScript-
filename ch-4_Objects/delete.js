@@ -18,6 +18,9 @@ console.log(obj.prop1 , returnValue)  // undefined true
 
 // Function VS Method
 
+// Function --> It is a block of code which is used to perform a particular task
+// which can be called multiple times
+
 // let ageCalculation = function(birthYear){
 //     let age = 2025 - birthYear;
 //     console.log(`Current age is ${age}`)
