@@ -1,0 +1,24 @@
+// this keyword
+
+// In Each method we have an access of special keyword called "this"
+
+// "this" keyword represent the object. "calling" the "method" in which "this" is "present"
+
+
+// Example
+
+let person = {
+    firstNAme : "Harry",
+    lastName : "Potter",
+    city :"London",
+    birthYear : 2005,
+    education : "Software Engineer",
+    getSummary : function(name){
+        // console.log(`Harry potter lived in London . He is software Engeneer  and his birthYear is 2005.`)
+        console.log(`${this.firstNAme} ${this.lastName} lived in ${this.city}}`)
+    }
+}
+console.log(person.getSummary());
+
+// step -1 :  check in which method we use "this" keyword
+// sttep-2 : owner of that method(who is callin thos method)
