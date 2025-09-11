@@ -24,9 +24,6 @@ dishes.forEach(function(element){
 
 
 
-
- 
-
 // Object inside array
 let blockList = [{Username : "john",reason:"Abusive Contact"}, {Username : "sam",reason:"Spam"}]
 console.log(blockList)
