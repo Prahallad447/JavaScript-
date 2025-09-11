@@ -16,6 +16,9 @@ dishes.forEach(function(element){
     console.log(element);
 })
 
+// using arrow function
+dishes.forEach(food => console.log(food))
+
 
 //  It does not return a new array and does not modify the original array. It's commonly used for iteration and performing actions on each array element.
 
@@ -29,7 +32,7 @@ let blockList = [{Username : "john",reason:"Abusive Contact"}, {Username : "sam"
 console.log(blockList)
 
 for(let i=0;i<blockList.length;i++){
-    console.log(`${blockList[i].Username} Blocked due to this reason ${blockList.reason} as resone`);
+    console.log(`${blockList[i].Username} Blocked due to this reason ${blockList.reason} as reason`);
 }
 
 
