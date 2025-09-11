@@ -7,7 +7,6 @@ let mainPlane = {
     bookings : [],
     book : function(flighNum , name){
         console.log(`${name} Booked Flight on ${this.airline} with flight number ${this.iatacode}${flighNum}`);
-        
     }
 }
 
