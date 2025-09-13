@@ -14,3 +14,7 @@ for(let key in car){
     x=x+car[key]
 }
 console.log(x)
+
+
+// enumerable property :-->>
+// an enumerable property is a property of an object that can be iterated over in loops like for...in or retrieved by functions like Object.keys().
