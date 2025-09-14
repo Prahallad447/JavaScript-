@@ -7,5 +7,3 @@
 // In Document object there is model of complete html in tree like structure
 
 console.log(document)
-alert("hello")
-confirm("are you sure")
