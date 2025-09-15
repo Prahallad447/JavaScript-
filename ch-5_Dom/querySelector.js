@@ -28,6 +28,8 @@ console.log(resultElement)
 
 
 
+
+
 // Get element by tagname
 let tagName = document.getElementsByTagName('p')
 console.log(tagName)
