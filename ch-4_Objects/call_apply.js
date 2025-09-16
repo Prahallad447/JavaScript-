@@ -6,7 +6,7 @@
 //  apply ----> same as call but it takes array of arguments
 // bind ----> 
 
-'use strict'
+'use strict'  
 
 let mainPlane = {
     airline : "Fly India",
@@ -28,6 +28,7 @@ let childPlane = {
     airline :"Child Plane",
     iatacode : "CP",
     bookings : [],
+    
 }
 
 let book = mainPlane.book
@@ -44,5 +45,5 @@ console.log(mainPlane)
 
 // apply method
 
-book.apply(childPlane,[987,"iron"])
-console.log(childPlane)
+// book.apply(childPlane,[987,"iron"])
+// console.log(childPlane)
