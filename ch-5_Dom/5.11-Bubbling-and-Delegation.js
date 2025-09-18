@@ -40,3 +40,12 @@ ul.addEventListener("click",(e) => {
         e.target.remove()
     }
 })
+
+
+
+
+
+
+
+
+// Note: nodeName returns the tag name of the element in uppercase (e.g., "LI" for <li> elements).
