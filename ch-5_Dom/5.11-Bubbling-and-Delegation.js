@@ -43,9 +43,4 @@ ul.addEventListener("click",(e) => {
 
 
 
-
-
-
-
-
-// Note: nodeName returns the tag name of the element in uppercase (e.g., "LI" for <li> elements).
+// In the above code, we added a single click event listener to the <ul> element. When any <li> inside it is clicked, the event bubbles up to the <ul>, and we check if the clicked target is an <li>. If it is, we remove that <li>. This way, even if new <li> elements are added later, they will still be handled by this single event listener on the <ul>.
