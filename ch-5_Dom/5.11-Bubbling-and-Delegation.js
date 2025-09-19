@@ -1,6 +1,7 @@
 // Bubbling and Delegation
 
-// Bubbling  --> When an event (like a click) happens on an element, it first runs the event handler on that element, and then it "bubbles up" (propagates) to its parent element, then its parent’s parent, and so on, until it reaches the root (document).
+// Bubbling  -->When an event happens on an element, it starts from the innermost element (where the event occurred) and then bubbles up to its parent elements, one by one, until it reaches the topmost ancestor (usually document).
+// Order: Child → Parent → Ancestors → Document.
 
 
 // const ul = document.querySelector('ul')
@@ -15,7 +16,8 @@ button.addEventListener("click",function(){
     let li = document.createElement('li')
     li.textContent = "Something new added"
     // ul.append(li)    // append is used to add element at the end
-    ul.prepend(li)     // prepend is used to add element at the start
+    ul.prepend(li)    // prepend is used to add element at the start
+    // ul.appendChild(li)
 })
 
 
@@ -29,7 +31,7 @@ button.addEventListener("click",function(){
 
 
 
-// Delegation  --> Instead of adding event listeners to each individual element, you can add a single event listener to a parent element. This listener can then check which child element triggered the event and handle it accordingly. This is especially useful for dynamically added elements.
+// Delegation  --> Instead of adding event listeners to multiple child elements, you attach one event listener to a common parent element, and use it to handle events for all its children
 
 let ul = document.querySelector('ul')
 ul.addEventListener("click",(e) => {
