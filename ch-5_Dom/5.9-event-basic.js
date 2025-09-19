@@ -14,10 +14,8 @@ elements.forEach(function(element){
     element.addEventListener('click',function(e){
         // console.log("clicked on",element.innerText)
 
-        // console.log(e.target)
+        console.log(e.target)
 
         e.target.style.textDecoration = "Line-through"
-
-
     })
 })
