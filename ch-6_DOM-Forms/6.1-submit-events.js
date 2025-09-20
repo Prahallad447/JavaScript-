@@ -6,7 +6,6 @@ let form = document.querySelector('.sign-up-form')
 // let password = document.querySelector('#password')
 
 
-
 form.addEventListener('submit', (e) => {
     e.preventDefault() // 
 
@@ -19,13 +18,10 @@ form.addEventListener('submit', (e) => {
 })
 
 
-
-
-
 // preventDefault() -->Every time you do something on a webpage (click a link, submit a form, right-click, etc.),
 
 // the browser automatically does something by default.
 
-// 🔹 preventDefault() tells the browser:
+// preventDefault() tells the browser:
 
 // “Hey, don’t do what you normally do — I will handle it myself.”
