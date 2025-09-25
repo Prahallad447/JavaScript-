@@ -13,14 +13,14 @@ form.addEventListener('submit', (e) => {
 
     // console.log(form.email.value , form.password.value) 
 
-    console.log(form.userEmail.value , form.userPassword.value) 
+    console.log(form.userEmail.value , form.userPassword.value)
 
 })
 
 
-// preventDefault() -->Every time you do something on a webpage (click a link, submit a form, right-click, etc.),
+// preventDefault() --> Every time you do something on a webpage (click a link, submit a form, right-click, etc.),
 
-// the browser automatically does something by default.
+// The browser automatically does something by default.
 
 // preventDefault() tells the browser:
 
