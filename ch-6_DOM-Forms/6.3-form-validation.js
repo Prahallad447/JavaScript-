@@ -16,6 +16,7 @@ let userNamePattern = /^[A-Za-z]{6,12}$/
 let form = document.querySelector('.sign-up-form')
 // let password = document.querySelector('#password')
 
+
 form.addEventListener('submit',function(e){
     e.preventDefault();
     console.log(form.email.value ,form.password.value)
