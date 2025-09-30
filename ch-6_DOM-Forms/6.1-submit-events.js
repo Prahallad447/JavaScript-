@@ -14,7 +14,6 @@ form.addEventListener('submit', (e) => {
     // console.log(form.email.value , form.password.value) 
 
     console.log(form.userEmail.value , form.userPassword.value)
-
 })
 
 
